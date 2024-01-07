@@ -1,6 +1,7 @@
 # guestbook
 
 ## Architecture
+```
 ├── Capstanfile
 ├── Dockerfile
 ├── Procfile
@@ -118,7 +119,7 @@
 │           │   └── core_test.clj
 │           └── handler_test.clj
 └── test-config.edn
-
+```
 ### Core
 The core manages the life cycle of the HTTP server
 
